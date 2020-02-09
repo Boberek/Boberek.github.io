@@ -8,18 +8,29 @@
 			
 			<style>
 					:root	{
-							--height1: 43vh;
+							--height1: 40vh;
+							--height2: 40vh;
 							}
 					
+					*		{
+							box-sizing: border-box;
+							}
+		
 					body	{
 							background-color:#f5f3c6;
 							color:#2b2b2a;
 							font-family: Arial;
 							}
 					
+					.heafoo	{
+							border-radius: 30px;
+							width: 100%;
+							text-align: center;
+							}
+					
 					header 	{
-							background-color:#ebc746;
-							color:#2b2b2a;
+							background-color:#735502;
+							color:white;
 							float: left;
 							text-align: center;
 							
@@ -35,16 +46,39 @@
 							height: var(--height1)
 							
 							}
-							
-					#img1	{
-							width: 40%;
-							border-radius: 15px;
-							margin-top:5px;
-							float:left;
-							overflow: auto;
+					
+					.line2	{
+							height: var(--height2)
 							
 							}
 					
+					
+					#img1	{
+							width: 40%;
+							border-radius: 15px;
+							margin-top: 5px;
+							float:left;
+							overflow: auto;
+							}
+					
+					#img2	{
+							
+							width: 35%;
+							border-radius: 15px;
+							margin-top: 5px;
+							float:right;
+							overflow: auto;
+							}
+					
+					#img3	{
+							
+							width: calc(45% - 4px);
+							border-radius: 15px;
+							margin-left: 4px;
+							float:right;
+							overflow: auto;
+							}
+							
 					#article1{
 							float:right;
 							text-align:left;
@@ -53,18 +87,18 @@
 							margin-left: 4px;
 							padding-left: 7px;
 							padding-right: 7px;
-							width:calc(60% - 18px);
+							width: calc(60% - 4px);
 							border-radius: 15px;
 							font-size: 3vh;
 							overflow: auto;
-							
+							margin-bottom: 5px;
 							}
 							
 					#article2{
+							
 							float:left;
-							text-align:left;
-							background-color:#edaf42;
-							margin-top: 5px;
+							background-color:#fad673;
+							
 							padding-left: 10px;
 							padding-right: 10px;
 							
@@ -72,8 +106,8 @@
 							font-size: 2vh;
 							
 							overflow: auto;
-							width: calc(20% - 20px);
-							height: 30vh;
+							width: 55%;
+							margin-bottom: 5px;
 							text-align: center;
 							
 							}
@@ -83,14 +117,10 @@
 							border-collapse: collapse;
 							border-color: #2b2b2a;
 							width: 100%;
-							
+							height: 75%;
 							}
 							
-					thead	{
-							}
-							
-					tbody	{
-							}
+					
 							
 					tr, td	{
 							border: 1px solid black;
@@ -99,16 +129,27 @@
 							border-color: #2b2b2a;
 							}
 					
+					footer 	{
+							
+							align: center;
+							height: auto;
+							overflow: auto;
+							background-color: #eddd00;
+							
+							margin-top: 5px;
+							
+							padding: 8px;
+							}
 					
 			</style>
 		</head>
 		
 		<body>
-			<header >Strona o podróżach</header>
+			<header class="heafoo">Strona o podróżach</header>
 			
 			<img id="img1" class="line1" src="https://v.wpimg.pl/MTc1ODgwYjUCUzl3SAxvIEELbS0OVWF2FhN1Zkg4YmJQATd3Xk5iPU1GP2oXG2I1TFdgLhcSKntQA3x3Ulh-ewIefCVeTn03BlN5cAJGdGMAVyx0BE8pMFMJfHdVFn5nWwlhLhcSKnYe" alt="Szwedzkie domki">
 			
-			<article class="line1" id="article1">
+			<article class="line1" id="article1" >
 					<p>
 						Możliwe cele podróży:
 						<ol>
@@ -121,32 +162,50 @@
 					</p>
 			</article>
 			
-			<article id="article2">
+			<img id="img3" class="line2" src="https://d-nm.ppstatic.pl/kadr/k/r/62/d6/5d31a489c99a0_o.jpg?1564437661">
+			
+			<div id="article2" class="line2">
 					<p> 
+						Wykaz kosztorysów i dodatkowych informacji:
 						<table>
 							<thead>
 								<tr>
-									<td><strong>Cel</strong></td>	<td><strong>Koszt</strong></td>
+									<td><strong>Cel</strong></td>	<td><strong>Koszt</strong></td>	<td><strong>Transport</strong></td> <td><strong>Dodatkowe atrakcje</strong></td>
 								<tr>
 							</thead>
 							
 							<tbody>
 								<tr>
-									<td>Szwecja</td>	<td><b>4199 pln</b></td>
+									<td>Szwecja</td>	<td><b>4199 pln</b></td> <td>Statek</td> <td>Zwiedzanie miasta Karlskrona</td>
 								</tr>
 								<tr>
-									<td>Szwajcaria</td>	<td><b>4888 pln</b></td>
+									<td>Szwajcaria</td>	<td><b>4888 pln</b></td> <td>Autokar </td> <td>Narty w górach</td>
 								</tr>
 								<tr>
-									<td>Hiszpania</td>	<td><b>3789 pln</b></td>
+									<td>Hiszpania</td>	<td><b>3789 pln</b></td> <td>Samolot</td> <td>Ładne miasta i bujna roślinność</td>
 								</tr>
 								<tr>
-									<td>Hawaje</td>	<td><b>5132 pln</b></td>
+									<td>Hawaje</td>	<td><b>13 482 pln</b></td> <td>Samolot</td> <td>Piękne plaże</td>
 								</tr>
 							</tbody>
 						</table>
 					</p>
-			</article>
+			</div>
+			
+			<!--<img id="img2" class="line2" src="https://fakty.plportal.pl/sites/default/files/artykul/zdjecie/gory.jpg">
+			-->
+			
+			<footer class="heafoo">
+					Made by: Boberek
+					<details>
+						<summary>Images can be found here:</summary>
+						
+							 <a target="_blank" href="https://v.wpimg.pl/MTc1ODgwYjUCUzl3SAxvIEELbS0OVWF2FhN1Zkg4YmJQATd3Xk5iPU1GP2oXG2I1TFdgLhcSKntQA3x3Ulh-ewIefCVeTn03BlN5cAJGdGMAVyx0BE8pMFMJfHdVFn5nWwlhLhcSKnYe">Islands in Sweden</a> 
+							 <br>
+							 <a target="_blank" href="https://d-nm.ppstatic.pl/kadr/k/r/62/d6/5d31a489c99a0_o.jpg?1564437661">Beach</a> 
+						
+					</details>
+			</footer>
 		</body>
 	
 	</html>

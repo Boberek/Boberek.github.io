@@ -9,15 +9,21 @@
 				<style>
 					body 	{
 						font-family: arial;
+						color: #2b2b2a;
 						}
 					
+					*	{
+						box-sizing: border-box;
+						}
+							
 					header {
 						background-color: #3333cc;
 						color: white;
 						width 100%;
-						padding 35px;
+						padding: 10px;
 						text-align: center;
 						font-size:40px;
+						border-radius: 20px;
 						}
 					
 					ul, li	{
@@ -28,15 +34,51 @@
 						text-align: left;
 						}
 					
+					a.link{
+						font-family: arial;
+						color: #2b2b2a;
+						text-decoration: none;
+						
+						padding-bottom: 1.5vh;
+						padding-top: 1.5vh;
+						
+						
+						}
+					
+					#sport{
+						width:10%;
+						height:auto;
+						padding: 15px;
+						margin: 2vh;
+						background-color: #bef6f7;
+						border-radius: 35px;
+						text-align:center;
+						}
+					
+					
+					
+					#podroze{
+						width:10%;
+						height:auto;
+						padding: 15px;
+						margin: 2vh;
+						background-color:#e5bef7;
+						border-radius: 35px;
+						text-align:center;
+						}
+					
+					
+						
+						
+					
 				</style>
 			</head>
 			
 			<body>
 				<header> <b>My pages:</b> </header>
-				<ul>
-					<li><a href="https://boberek.github.io/sport.html"> Sport </a></li>
-					<li><a href="https://boberek.github.io/podroze.html"> Podróże(jeszcze niegotowe) </a></li>
-				</ul>
+					<div id="sport"> <a  class="link" href="https://boberek.github.io/sport.html"> <strong>Sport</strong> </a> </div>
+					<div id="podroze"> <a  class="link" href="https://boberek.github.io/podroze.html"> <strong> Podróże </strong> </a> </div>
+				
 			</body>		
 		
 		</html>
