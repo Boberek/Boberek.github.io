@@ -35,11 +35,12 @@
 						font-family: arial;
 						color: #2b2b2a;
 						text-decoration: none;
-						
-						
-						
+						}
+					a.link:hover{
+						color: white;
 						
 						}
+					
 					
 					#sport{
 						width:20%;
@@ -52,9 +53,15 @@
 						position: absolute;
 						top: 13%;
 						left: 5%;
+						border: none;
+						font-size: 2vh;
 						}
 					
-					
+					#sport:hover{
+						color:white;
+						background-color: ;
+						cursor:pointer;
+						}
 					
 					#podroze{
 						width:20%;
@@ -67,9 +74,16 @@
 						position: absolute;
 						top: 13%;
 						left: 30%;
+						border: none;
+						font-size: 2vh;
+						
 						}
 					
-					
+					#podroze:hover{
+						color:white;
+						background-color: ;
+						cursor:pointer;
+						}
 						
 					footer{
 						<!--position: absolute;
@@ -99,8 +113,9 @@
 			<body>
 				<header> <b>My pages:</b> </header>
 					<article> 
-						<div id="sport"> <a  class="link" target="_blank" href="https://boberek.github.io/sport.html"> <strong>Sport</strong> </a> </div>
-						<div id="podroze"> <a  class="link" target="_blank" href="https://boberek.github.io/podroze.html"> <strong>Podróże</strong> </a> </div>
+						
+						<button id="sport" onclick="window.location.href = 'https://boberek.github.io/sport.html';"><strong>Sport</strong></button>
+						<button id="podroze" onclick="window.location.href = 'https://boberek.github.io/podroze.html';"><strong>Podróże</strong></button>
 					</article>
 			
 				<footer>
