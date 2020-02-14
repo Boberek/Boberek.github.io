@@ -44,7 +44,7 @@ a.link:hover{
 		text-align:center;
 		position: absolute;
 		top: 13%;
-		left: 5%;
+		left: 4%;
 		border: none;
 		font-size: 2vh;
 		}
@@ -65,7 +65,7 @@ a.link:hover{
 		text-align:center;
 		position: absolute;
 		top: 13%;
-		left: 30%;
+		left: 28%;
 		border: none;
 		font-size: 2vh;				
 		}
@@ -75,7 +75,49 @@ a.link:hover{
 		background-color: #d475ff;
 		cursor:pointer;
 		}
-						
+
+#trzy	{
+		width:20%;
+		height:auto;
+		padding: 15px;
+		margin: 2vh;
+		background-color:#fcaaa4;
+		border-radius: 35px;
+		text-align:center;
+		position: absolute;
+		top: 13%;
+		left: 52%;
+		border: none;
+		font-size: 2vh;	
+		}
+		
+#trzy:hover{
+		color:white;
+		background-color: #ff6a5e;
+		cursor:pointer;
+		}	
+
+#cztery	{
+		width:20%;
+		height:auto;
+		padding: 15px;
+		margin: 2vh;
+		background-color:#ffeda6;
+		border-radius: 35px;
+		text-align:center;
+		position: absolute;
+		top: 13%;
+		left: 76%;
+		border: none;
+		font-size: 2vh;	
+		}
+		
+#cztery:hover{
+		color:white;
+		background-color: #ffdc52;
+		cursor:pointer;
+		}	
+				
 footer	{
 		position: absolute;				
 		float:left;
@@ -103,7 +145,11 @@ details	{
 details:active{
 		border:none;			
 		}
-					
+
+summary:hover{
+		cursor:pointer;
+		}
+		
 #linkimg{
 		text-decoration:none;
 		color: white;
