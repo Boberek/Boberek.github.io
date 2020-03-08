@@ -29,7 +29,6 @@ footer	{
 	
 div		{
 		display: inline-block;
-		width: 30%;
 		color: #EDEDED;
 		border-radius: 32px;
 		padding-bottom: 8px;
@@ -37,13 +36,17 @@ div		{
 		padding-right: 5px;
 		padding-left: 5px;
 		margin-top: 5px;
-		background-color: #425057;	
-		height: 25vh;
-		font-size: 20px;
+		background-color: #425057;
 		}
 
 a  		{
 		text-decoration: none;
+		}
+
+.divs	{
+		height: 25vh;
+		font-size: 20px;
+		width: 30%;
 		}
 		
 #div1	{
@@ -124,4 +127,22 @@ a  		{
 		text-align: right;
 		margin-right: 3px;
 		margin-top: 10vh;
+		}
+		
+#a 		{
+		color: #EDEDED;
+		text-decoration: none;
+		}
+		
+#sticky {
+		position: absolute;	
+		top: 3%;
+		left: 1.5%;
+		background-color: #AB2E2E;
+		display: inline-block;
+		border-radius: 30px;
+		color: #EDEDED;
+		padding: 6px;
+		margin-top: 1px;
+		margin-bottom: 1px;
 		}
