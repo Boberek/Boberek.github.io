@@ -2,13 +2,8 @@ body	{
 		font-family:arial;
 		background-color: #EDEDED;
 		}
-
-*		{
-		box-sizing: border-box;
-		}
 		
 header	{
-		text-align: center;
 		padding: 7vh;
 		background-color: #232F3B;
 		color: #EDEDED;
