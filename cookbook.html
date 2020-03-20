@@ -16,21 +16,30 @@
 				<h1>Moja książka kucharska:</h1>
 			</header>
 			
+			<nav id="links">
+				<ul>
+					<li><a href="#jajecznica">Jajecznica ze szczypiorkiem</a></li>
+					<li><a href="#makaron">Makaron penne z zielonym pesto, kukurydzą i kurczakiem</a></li>
+					<li><a href="#nalesniki">Naleśniki na słodko</a></li>
+					<li><a href="#omlet">Omlet z szynką i papryką</a></li>
+				</ul>
+			</nav>	
+			
 			<div id="tabelka">
 				<table>
 					<tr>
-						<th id="topleft">Potrawa</th>
+						<th id="topleft", class="column">Potrawa</th>
 						<th id="seccol">Składniki</th>
 						<th id="thicol">Czas <br>przygotowania</th>
 						<th id="topright">Sposób przygotowania</th>
 					</tr>
 					<tr>
-						<td id="jaj">Jajecznica ze szczypiorkiem</td>
+						<td class="vege" id="jajecznica">Jajecznica ze szczypiorkiem</td>
 						<td>
 							<ul>
 								<li>4 jajka</li>
 								<li>masło(na patelnię)</li>
-								<li>szczypiorek(wedle uznania)</li>
+								<li class="warzywo">szczypiorek(wedle uznania)</li>
 								<li>szczypta soli i pieprzu</li>
 							</ul>
 						</td>
@@ -44,24 +53,28 @@
 						</td>
 					</tr>
 					<tr>
-						<td>Makaron penne z zielonym pesto</td>
+						<td id="makaron">Makaron penne z zielonym pesto, kukurydzą i kurczakiem</td>
 						<td>
 							<ul>
 								<li>paczka makaronu penne</li>
 								<li>szczypta soli</li>
 								<li>słoiczek zielonego pesto</li>
+								<li class="warzywo">puszka kukurydzy</li>
+								<li>paczka piersi z kurczaka</li>
 							</ul>
 						</td>
 						<td><i>10-15 minut</i></td>
 						<td>
 							<p>
 								Zagotować w garnku wodę na makaron i posolić. Wsypać paczkę makaronu i czekać, aż się ugotuje.
-								Następnie przecedzić makaron i wymieszać go w garnku z zielonym pesto. Gotowe! Szybki makaron gotowy do jedzenia.
+								W międzyczasie usmażyć na patelni pierś z kurczaka pokrojoną w kostkę.
+								Następnie przecedzić makaron i wymieszać go w garnku z zielonym pesto, usmażonym kurczakiem i kukurydzą prosto z puszki.
+								Gotowe! Szybki makaron gotowy do jedzenia.
 							</p>
 						</td>
 					</tr>
 					<tr>
-						<td>Naleśniki na słodko</td>
+						<td class="vege" id="nalesniki">Naleśniki na słodko</td>
 						<td>
 							<ul>
 								<li>2 jajka</li>
@@ -83,20 +96,22 @@
 						</td>
 					</tr>
 					<tr>
-						<td id="bottomleft">Omlet</td>
+						<td id="omlet">Omlet z szynką i papryką</td>
 						<td>
 							<ul>
 								<li>2 jajka</li>
 								<li>2 łyżki mleka</li>
 								<li>szczypta soli</li>
 								<li>masło(na patelnię)</li>
+								<li>szynka</li>
+								<li class="warzywo">papryka</li>
 							</ul>
 						</td>
 						<td><i>10-15 minut</i></td>
 						<td id="bottomright">
 							<p>
 								W misce roztrzepać jajka, dodać sól i mleko. Rozgrzać patelnię z masłem. Wylać zmieszane jajka i smażyc do momentu, gdy spód będzie całkowicie ścięty. 
-								Wyłożyć gotowy omlet na talerz i dodać ulubione dodatki np. szynkę lub paprykę. Gotowe!
+								Wyłożyć gotowy omlet na talerz, dodać posiekaną szynkę i pokrojoną paprykę. Gotowe!
 							</p>
 						</td>
 					</tr>
