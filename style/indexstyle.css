@@ -158,3 +158,87 @@ summary:hover{
 #linkimg:hover{
 		color: black;
 		}
+		
+#piec	{
+		width:20%;
+		height:auto;
+		padding: 15px;
+		margin: 2vh;
+		background-color: #3cfa7b;
+		border-radius: 35px;
+		text-align:center;
+		position: absolute;
+		top: 25%;
+		left: 4%;
+		border: none;
+		font-size: 2vh;
+		}
+					
+#piec:hover{
+		color:white;
+		background-color: #28ad54;
+		cursor:pointer;
+		}
+		
+#szesc	{
+		width:20%;
+		height:auto;
+		padding: 15px;
+		margin: 2vh;
+		background-color: #424fff;
+		border-radius: 35px;
+		text-align:center;
+		position: absolute;
+		top: 25%;
+		left: 28%;
+		border: none;
+		font-size: 2vh;
+		}
+					
+#szesc:hover{
+		color:white;
+		background-color: #2730a8;
+		cursor:pointer;
+		}
+		
+#siedem	{
+		width:20%;
+		height:auto;
+		padding: 15px;
+		margin: 2vh;
+		background-color: #d6ff78;
+		border-radius: 35px;
+		text-align:center;
+		position: absolute;
+		top: 25%;
+		left: 52%;
+		border: none;
+		font-size: 2vh;
+		}
+					
+#siedem:hover{
+		color:white;
+		background-color: #b3d663;
+		cursor:pointer;
+		}
+	
+#osiem	{
+		width:20%;
+		height:auto;
+		padding: 15px;
+		margin: 2vh;
+		background-color: #f73485;
+		border-radius: 35px;
+		text-align:center;
+		position: absolute;
+		top: 25%;
+		left: 76%;
+		border: none;
+		font-size: 2vh;
+		}
+					
+#osiem:hover{
+		color:white;
+		background-color: #c9286b;
+		cursor:pointer;
+		}

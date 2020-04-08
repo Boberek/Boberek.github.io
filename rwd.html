@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+		<html lang="pl">
+		
+			<head>
+				<meta charset="utf-8;">
+				<title>Responsive Web Design</title>
+				<base href="index.pl">
+				
+				<link rel="icon" href="/favicon.ico" type="image/x-icon" / > <!-- Ikona w tytule strony -->
+				<link rel="stylesheet" href="style/rwd.css" type="text/css" / > <!-- Style strony w oddzielnym pliku-->
+				
+			</head>
+			
+			<a id="a" href="/index.html"><div id="sticky">Powrót</div></a>
+			
+			<header>
+				<h2>Czym właściwie są strony responsywne? Na czym to polega?</h2>
+			</header>
+		
+			<body>
+				
+				<article>
+				<p id="wprowadzenie">
+				W dzisiejszych czasach użytkownicy używają wiele przeróżnych urządzeń o różnej wielkości wyświetlaczy.
+				Wielu z nich korzysta na tych urządzeniach z internetu. Wiadomo, że strony zrobione na komputerowe przeglądarki będą 
+				wyglądać źle lub nieczytelnie na ekranach małych smarfonów. <br><br>
+				</p>
+				<h3>Naszczęście na pomoc przychodzą właśnie strony responsywne! </h3>
+				
+				<h4>Jest kilka sposobów dostosowywania stron. Dwa najprostsze to CSS3 Media Quaries i responsywne jednostki: </h4>
+				
+				<p id="mediaquaries">
+				<strong>CSS3 Media Quaries </strong>to znaczniki w kodzie CSS, które dostosowywują style do wielkości wyświetlanego okna:<br><br>
+				<i>@media (max-height: 800px) {font-size: 10px} </i><br><br>
+				W podanym przykładzie wielkość czcionki będzie równa 10 pikseli, jeśli strona ma mniejszą lub równą wysokość 800 pikseli.<br><br>
+				</p>
+				
+				<p id="jednostki">
+				<strong>Resposnywne jednostki</strong> natomiast pozwalają zastąpić px i em, które są stałe, na jednostki dostosowujące się do rozmiaru 
+				wyświetlanego okna: 
+					<ul>
+						<li>vw - viewport width - np. 10vw to 10% szerokości wyświetlanego okna</li>
+						<li>vh - viewport height - np. 10vh to 10% wysokości wyświetlanego okna</li>
+						<li>vmin - viewport minimum - np. 10vmin to 10% mniejszgo wymiaru wyświetlanego okna</li>
+						<li>vmax - viewport maximum - np. 10vmax to 10% większego wymiaru wyświetlanego okna</li>
+					</ul>
+				</p>
+				</article>
+				
+				<img alt="rozne urzadzenia" src="https://lh3.googleusercontent.com/proxy/HjKNt3gzVHfcibFd8Xi3Txp0s_5n3X999Xcuoql9JOjZGfubm4UWTboKJc7TEFI8Tn18j6KKrVeREG7MPnBtF8lZErBL3PpcqCHCT9hZTI4yb5FXM5oGzwHCT4TKQ_oCbyIEl6-DOA">
+				
+			</body>
+			
+			
+		
+		
+		</html>
