@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+		<html lang="pl">
+		
+			<head>
+				<meta charset="utf-8;">
+				<title>Zapisy na kurs gotowania!</title>
+				<base href="">
+				
+				<link href="style/formsstyle.css" rel="stylesheet">
+				<link rel="icon" href="/favicon.ico" type="image/x-icon" / > <!-- Ikona w tytule strony -->
+				
+			</head>
+			
+			<body id="mainbody">
+				<header>
+				<h1 id="maintitle">Zapisy na kurs gotowania!</h1>
+				</header>
+				
+				<article id="opis">
+					<p>
+					Nie umiesz gotować? W kuchni czujesz się jak obcy? To żaden problem! Zapraszamy na jedyny w swoim rodzaju kurs gotowania
+					dla początkujących! Razem nauczymy się wszystkiego od podstaw, napewno nie pożałujesz! 
+					</p>
+					<p>
+					Zajęcia będą odbywać się 2 razy w tygodniu(poniedziałki i czwartki) o godzinie 18 w naszych placówkach w Warszawie, Poznaniu, Krakowie i Wrocławiu.
+					Sprzęt potrzebny do kursu zapewanimy sami, a koszt kursu to 0 złotych! Zajęcia są w 100% dofinansowywane z funduszy państwowych!
+					</P>
+					<p>
+					Ilość miejsc ograniczona, więc warto się pospieszyć! Do zobaczenia na warsztatach!
+					</p>
+				</article>
+				
+				<h4 id="formtitle">Formularz zgłoszeniowy:</h4>
+				
+				<div id="forms">
+				<form action="thanks.html" target="_self" method="post" id="form">
+					
+					<label for="fname">Imię:</label><br>
+					<input type="text" id="fname" name="fname" placeholder="Twoje imię..."><br>
+					<label for="lname">Nazwisko:</label><br>
+					<input type="text" id="lname" name="lname" placeholder="Twoje nazwisko..."><br>
+					<label for="email">Adres email:</label><br>
+					<input type="text" id="email" name="email" placeholder="Twój email..."><br>
+					<label for="postalcode">Kod pocztowy:</label><br>
+					<input type="text" id="postalcode" name="postalcode" placeholder="Twój kod pocztowy..."><br>
+					
+					<label for="gender">Płeć:</label> <br>
+					<input type="radio" id="male" name="gender" value="male">
+					<label for="male">Mężczyzna</label><br>
+					<input type="radio" id="female" name="gender" value="female">
+					<label for="female">Kobieta</label><br>
+					<label for="city">Lokalizacja szkolenia:</label><br>
+					
+					
+					<select id="city" name="city">
+						<option value="Wybierz miasto">Wybierz miasto</option>
+						<option value="Warszawa">Warszawa</option>
+						<option value="Poznań">Poznań</option>
+						<option value="Kraków">Kraków</option>  
+						<option value="Wrocław">Wrocław</option>
+					</select><br>
+					
+					
+					<label for="extrainfo">Dodatkowe pytania i uwagi:</label><br>
+					<textarea name="extrainfo" rows="4" cols="50"></textarea><br>
+					
+					<input type="submit" value="Wyślij">
+					<input type="reset" value="Zresetuj">
+					
+				</form>
+				</div>
+				
+				<footer id="mainfooter">
+					<br> <br>
+					Made by <strong>Boberek</strong>
+				</footer>
+			
+			</body>		
+		
+		</html>
