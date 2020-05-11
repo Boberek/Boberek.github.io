@@ -49,8 +49,8 @@
 input[type=text],select, textarea{
 	padding: 0.4vw;
 	width: 100%;
-	margin-bottom: 0.3vh;
-	margin-top: 0.3vh;
+	margin-bottom: 0.5vh;
+	margin-top: 0.5vh;
 	border-radius: 7px;
 	border: 1.5px solid lightgrey;
 	resize: none;
@@ -111,5 +111,28 @@ input[type=reset]:hover{
 	color: white;
 	}
 	
+#thanksh2{
+	text-align: center;
+	font-family: arial;
+	font-size: 2em;
+	color: #5c69bf;
+	background-color: rgba(255, 0, 238, 0.2);
+	border-radius: 10px;
+	padding: 2vh;
+	width: 75%;
+	margin-left: 12.5%;
+	}
 	
+#thanksbody{
+	background-color: #FEE140;
+	background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+	}	
 	
+#timg{
+	width: 50%;
+	margin-left: 25%;
+	}
+
+#female{
+	margin-bottom: 0.5vh;
+	}	
