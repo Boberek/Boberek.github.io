@@ -103,6 +103,7 @@ input[type=reset]{
 input[type=reset]:hover{
 	background-color: #630707;
 	cursor: pointer;
+	background-repeat: no-repeat;
 	}
 	
 #mainfooter{
